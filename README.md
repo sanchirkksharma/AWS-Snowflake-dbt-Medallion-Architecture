@@ -9,14 +9,14 @@ This project implements a modern data engineering pipeline leveraging:
 5. Incremental ingestion for efficient CDC (Change Data Capture)
 
 **Tech Stack**
-Storage	--> AWS S3
-Warehousing	--> Snowflake
-Transformation --> dbt Core
-Security --> IAM Role + Storage Integration
-Modeling --> Jinja SQL / dbt Macros
-Ingestion --> COPY INTO + dbt
-Format --> CSV
-Architecture --> Medallion (Bronze/Silver/Gold)
+- Storage	--> AWS S3
+- Warehousing	--> Snowflake
+- Transformation --> dbt Core
+- Security --> IAM Role + Storage Integration
+- Modeling --> Jinja SQL / dbt Macros
+- Ingestion --> COPY INTO + dbt
+- Format --> CSV
+- Architecture --> Medallion (Bronze/Silver/Gold)
 
 **Security & Access Control**
 Snowflake uses:
